@@ -1,22 +1,21 @@
 * {
-  /* `otf-font-awesome` is required to be installed for icons */
   font-family: Hack Nerd Font;
   font-size: 15px;
 }
 
 window#waybar {
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
   border-top: 8px transparent;
   border-radius: 8px;
   transition-duration: 0.5s;
-  margin: 10px 10px;
+  margin: 8px 8px;
 }
 
 window#waybar.hidden {
-  opacity: 0.2;
+  opacity: 0.6;
 }
 
 #workspaces button {
@@ -46,9 +45,8 @@ window#waybar.hidden {
   /* border-radius: 20px; */
   /* padding-left: 10px; */
   /* padding-right: 10px; */
-  color: #64727d;
+  /* color: #64727d; */
 }
-
 #clock,
 #battery,
 #cpu,
