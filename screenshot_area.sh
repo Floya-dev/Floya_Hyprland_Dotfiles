@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Screenshot
 time=$(date +%Y-%m-%d-%H-%M-%S)
-dir="/home/ondraa/Pictures/Screenshots"
+dir="/home/ondraaasek/Pictures/Screenshots"
 file="Screenshot_${time}.png"
 
 # Directory
