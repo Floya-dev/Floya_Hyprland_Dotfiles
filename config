@@ -6,9 +6,9 @@
     "margin-bottom": 4,
     "margin-right": 7,
     "spacing": 5, // Gaps between modules (4px)
-    "modules-left": ["custom/launcher", "cpu", "memory"],
-    "modules-center": ["custom/spotify", "clock"],
-    "modules-right": ["tray", "pulseaudio", "network", "custom/power-menu"],
+    "modules-left": ["hyprland/window"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray", "pulseaudio", "cpu", "memory"],
     "hyprland/workspaces": {
       "format": "{icon}",
       "on-click": "activate",
@@ -24,7 +24,8 @@
       }
     },
     "hyprland/window": {
-        "format": "{}"
+        "format": " <span color='#1793D1ff'>󰣇 </span>{} ",
+	"on-click": "./home/ondraaasek/.config/hypr/boykisser.sh",
     },
     "tray": {
         "spacing": 10
@@ -118,7 +119,7 @@
     },
     "custom/power-menu": {
         "format": " <span color='#6a92d7'>⏻ </span>",
-        "on-click": "bash ~/.config/waybar/scripts/power-menu/powermenu.sh",
+        "on-click": "wlogout",
     },
     "custom/launcher": {
         "format": " <span color='#6a92d7'>󰣇 </span>",
